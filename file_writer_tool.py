@@ -2,7 +2,7 @@ import os
 from typing import Optional, Type, Any
 
 from pydantic.v1 import BaseModel
-from toolkit.basetool import BaseTool
+from gaeni_toolkit.basetool import BaseTool
 
 class FileWriterToolInput(BaseModel):
     filename: str
