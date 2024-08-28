@@ -1,0 +1,10 @@
+== DuckDuckGo Search Engine Tool
+
+    usage: 
+    
+        from langchain.tools import DuckDuckGoSearchRun
+
+        search_tool = DuckDuckGoSearchRun()
+    
+
+

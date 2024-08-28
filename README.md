@@ -8,8 +8,11 @@
 
         $git clone https://github.com/elsakti/gaeni_toolkit.git
 
+    B. Gaeni Toolkit Usage :
 
-    B. Managing Tools - Create Remote
+        from gaeni_toolkit.<tool file name> import <tool>
+
+    C. Managing Tools - Create Remote
 
         1. Switch to library directory, do command :
 
@@ -27,7 +30,7 @@
 
             *git remote command will send your existing remotes
 
-    C. Managing Tools - Create New Tools
+    D. Managing Tools - Create New Tools
 
         1. Make sure, u already at library directory.
 
@@ -75,7 +78,7 @@
 
                 example : 'git push toolkit Weather'
 
-    D. Updating Tools Library (Pulling New Changes), do command :
+    E. Updating Tools Library (Pulling New Changes), do command :
 
         1. Make sure, u already at library directory.
 
